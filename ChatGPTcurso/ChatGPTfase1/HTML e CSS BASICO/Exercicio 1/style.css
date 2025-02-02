@@ -1,0 +1,33 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-height: 100vh; /* Define que a altura máxima da imagem será 100% da altura da tela */
+    width: auto; /* Ajusta a largura da imagem proporcionalmente */
+}
+
+
+/*
+Claro! Vamos destrinchar o CSS que aplica estilos à imagem:
+
+1. display: block;
+Este estilo transforma a imagem em um bloco. Por padrão, as imagens são tratadas como elementos inline, ou seja, elas se comportam como texto (ficam ao lado de outros elementos). Ao definir como block, a imagem ocupa toda a largura disponível na linha e quebra a linha após ela, permitindo um controle melhor sobre o posicionamento.
+
+2. max-width: 100%;
+Isso significa que a largura máxima da imagem será 100% da largura do contêiner onde ela está inserida. Ou seja, a imagem vai se ajustar automaticamente ao tamanho da tela, mas não ultrapassará a largura do seu contêiner (o que normalmente é o corpo da página ou o elemento section).
+
+Exemplo: Se o contêiner tiver 800px de largura, a imagem vai ajustar sua largura para 800px (ou menos se a imagem for menor que isso), garantindo que não ultrapasse os limites da página.
+3. height: auto;
+Essa propriedade garante que a altura da imagem seja ajustada automaticamente, mantendo a proporção original da imagem. Isso significa que, se a largura da imagem for reduzida, a altura será ajustada proporcionalmente para evitar distorções.
+
+Exemplo: Se você diminuir a largura da imagem para 50%, a altura será automaticamente ajustada para manter a proporção da imagem.
+4. margin: 0 auto;
+Este comando coloca uma margem automática à esquerda e à direita da imagem, o que centraliza a imagem horizontalmente dentro do seu contêiner.
+
+Exemplo: Se você tiver uma imagem com max-width: 100%, o uso de margin: 0 auto; vai centralizar a imagem dentro da seção ou da página.
+5. border-radius: 8px;
+Isso adiciona bordas arredondadas à imagem. O valor 8px define o raio de arredondamento das bordas. Quanto maior o valor, mais arredondadas as bordas ficam. Esse efeito ajuda a suavizar a aparência e dar um visual mais moderno à imagem.
+
+*/

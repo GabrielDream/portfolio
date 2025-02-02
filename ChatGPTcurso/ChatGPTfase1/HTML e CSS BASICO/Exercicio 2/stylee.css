@@ -1,0 +1,44 @@
+/* Boas práticas com CSS */
+
+/* Reset básico: Remove margens e paddings padrão e define box-sizing */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove paddings padrão */
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho do elemento */
+}
+
+/* Estilização geral do body */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte legível */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+    background-color: #f9f9f9; /* Fundo claro para contraste com texto escuro */
+    color: #333; /* Cor padrão do texto */
+    padding: 20px; /* Espaçamento interno para evitar colar o conteúdo na borda */
+}
+
+/* Estilização do cabeçalho */
+header {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 30px; /* Adiciona espaçamento inferior */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Tamanho grande para o título */
+    color: #444; /* Tom médio para destacar o título */
+}
+
+/* Estilização geral para seções */
+section {
+    margin-bottom: 20px; /* Espaçamento inferior entre seções */
+    padding: 20px; /* Espaçamento interno nas seções */
+    background-color: #fff; /* Fundo branco para destacar as seções */
+    border-radius: 8px; /* Bordas arredondadas para suavidade visual */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+}
+
+/* Estilização dos subtítulos */
+h2 {
+    font-size: 1.8rem; /* Tamanho moderado para subtítulos */
+    margin-bottom: 15px; /* Espaçamento inferior para separar do conteúdo */
+    color: #555; /* Tom médio para complementar o título */
+}

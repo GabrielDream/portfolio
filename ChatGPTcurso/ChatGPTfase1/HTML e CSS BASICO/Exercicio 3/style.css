@@ -1,0 +1,34 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(170, 248, 248);
+}
+
+.texto {
+    margin: 3px;
+    margin-top: 10px;
+    line-height: 1.4;
+    color: rgb(85, 69, 69); /* Cor inicial do texto */
+}
+
+/*Para alterar as cores no CSS*/
+
+.texto.red {
+    color: red;
+}
+
+a {
+   display: inline-block;
+   margin: 3px;
+   margin-top: 10px;
+   text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 57, 106);
+    text-decoration: underline;
+}

@@ -1,0 +1,84 @@
+/*Reset padrão:*/
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Arial, Helvetica;
+}
+
+/*Personalizar a Nav (dispostas horizontalmente)*/
+.navbar {
+    background-color: aliceblue;
+    color: rgb(53, 43, 43);
+    padding: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    /*Deixar as listas centralizadas:*/
+    justify-content: center;
+}
+
+.aplicacoesJava ul{
+    margin-left: 20px;
+}
+
+.navbar li {
+    margin: 5px
+}
+
+.navbar li.hover {
+    background-color: #dff0d8;
+}
+
+
+.apSobrePagina{
+    margin-left: 5px;
+}
+
+.sobreNos {
+    margin: 5px;
+    background-color: aliceblue;
+    
+}
+
+.sobreNos p {
+    padding: 7px;
+    text-align:justify;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#formulario {
+    display: inline-block;
+}
+
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.btn-voltar:hover {
+    background-color: #0056b3;
+}

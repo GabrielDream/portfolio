@@ -1,0 +1,103 @@
+/* Boas práticas com CSS */
+
+/* Reset básico: Remove margens e paddings padrão e define box-sizing */
+*{/* Remove margens e paddings padrão e define box-sizing para evitar problemas de espaçamento.*/
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove paddings padrão */
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho do elemento */
+}
+
+/* Estilização geral do body */
+body { /*Configurações gerais de fonte, espaçamento e fundo.*/
+    font-family: Arial, sans-serif; /* Define uma fonte legível */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+    background-color:rgb(213, 250, 253); /* Fundo claro para contraste com texto escuro */
+    color: #333; /* Cor padrão do texto */
+    padding: 20px; /* Espaçamento interno para evitar colar o conteúdo na borda */
+}
+
+/* Estilização do cabeçalho */
+header {/*Centralizado com titulo estilizado*/
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 30px; /* Adiciona espaçamento inferior */
+}
+
+header h1{
+    font-size: 2.5rem; /* Tamanho grande para o título */
+    color: #444; /* Tom médio para destacar o título */
+}
+
+/* Estilização geral para seções */
+section { 
+    margin-bottom: 20px; /*Espaçamento inferior entre as sessões*/
+    padding: 20px; /* Espaçamento interno nas seções */
+    border-radius: 8px; /* Bordas arredondadas para suavidade visual */
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1); /*Sombra leve para profundidade.*/
+}
+
+/*Estilização dos subtitulos*/
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px; 
+    color: #555; 
+}
+
+/*Estilização da tabela*/
+table {
+    width: 100%; /*Faz a tabela ocupar toda a largura disponivel*/
+    border-collapse: collapse;/* Remove espaços entre células */
+    margin-bottom: 20px; /*Para titulo, normalmente é px*/
+}
+
+table th, table td {
+    border: 1px solid #ccc; /*Adiciona borda clara as cedulas*/
+    padding: 10px; /*Espaçamento interno nas celulas*/
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4; /* Fundo diferenciado para cabeçalho */
+    color: #000000; /* Cor do texto no cabeçalho */
+}
+
+/* Estilização dos links */
+a {
+    color:#1a73e8;/*Azul para a cor dos links*/
+    text-decoration: none; /*Remove o sublinhado padrão dos links*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Estilização do formulario*/
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px; /* Espaçamento inferior para separar do campo */
+    font-weight: bold; /* Destaca o texto do rótulo */
+}
+
+
+form input, form textarea, form button {
+    margin-bottom: 15px; /* Espaçamento inferior entre os elementos do formulário */
+    padding: 10px; /* Espaçamento interno nos campos */
+    border: 1px solid #ccc; /* Borda leve nos campos */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #73aefc; /* Fundo azul para destaque */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Muda o cursor para indicar clique */
+    transition: background-color 0.3s ease; /* Animação suave ao passar o mouse */
+} 
+
+form button:hover {
+    background-color: #4091fa;
+}
+

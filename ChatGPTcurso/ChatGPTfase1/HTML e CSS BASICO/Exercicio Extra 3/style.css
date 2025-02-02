@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.formulario {
+    background-color: aliceblue;
+    color: rgb(53, 43, 43);
+    padding: 1rem;
+}
+
+.formulario ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario ul li {
+    margin: 0 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+.contato{
+    margin: 20px auto;
+    margin-top: 10px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#formularioParaContato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#formularioParaContato label {
+    font-weight: bold;
+}
+
+#formularioParaContato input,
+#formularioParaContato textarea,
+#formularioParaContato button {
+     padding: 10px;
+     border-radius: 5px;
+     width: 100%; 
+     border: 1px solid #ccc;
+}
+
+#formularioParaContato button{
+    background-color: #007bff;
+    cursor:pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#formularioParaContato button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+}

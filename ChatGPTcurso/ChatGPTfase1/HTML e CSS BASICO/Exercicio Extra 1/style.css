@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    width: auto; /* Ajusta a largura da imagem proporcionalmente */
+    height: auto;
+    max-height: 100vh; /* Define que a altura máxima da imagem será 100% da altura da tela */
+    margin: 0 auto; /*Centraliza a imagem*/
+    border-radius: 8px;
+}
