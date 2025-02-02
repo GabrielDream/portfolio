@@ -1,9 +1,0 @@
-
-.formulario {
-    display: flex;
-    flex-wrap: wrap; /*Permite que os itens se ajustem em várias linhas, se necessário*/
-    gap: 10px;
-    justify-content: flex-start; 
-}
-
-
